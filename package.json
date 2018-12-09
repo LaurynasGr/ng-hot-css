@@ -1,0 +1,26 @@
+{
+  "name": "ng-hot-css",
+  "version": "1.0.0",
+  "description": "Hot CSS/LESS/SCSS reloader for Angular",
+  "main": "commands.js",
+  "preferGlobal": true,
+  "bin": {
+    "ng-hot": "./commands.js"
+  },
+  "author": "Laurynas",
+  "license": "ISC",
+  "homepage": "https://github.com/LaurynasGr/ng-hot-css",
+  "bugs": "https://github.com/LaurynasGr/ng-hot-css/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LaurynasGr/ng-hot-css.git"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "commander": "^2.19.0",
+    "express": "^4.16.4",
+    "less": "^3.9.0",
+    "node-sass": "^4.10.0",
+    "socket.io": "^2.2.0"
+  }
+}
